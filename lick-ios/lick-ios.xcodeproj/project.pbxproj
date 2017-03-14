@@ -1,0 +1,338 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D92B4091CFA381C009E406E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92B4081CFA381C009E406E /* main.m */; };
+		1D92B40C1CFA381C009E406E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92B40B1CFA381C009E406E /* AppDelegate.m */; };
+		1D92B40F1CFA381C009E406E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D92B40E1CFA381C009E406E /* ViewController.m */; };
+		1D92B4121CFA381C009E406E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D92B4101CFA381C009E406E /* Main.storyboard */; };
+		1D92B4141CFA381C009E406E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D92B4131CFA381C009E406E /* Assets.xcassets */; };
+		1D92B4171CFA381C009E406E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D92B4151CFA381C009E406E /* LaunchScreen.storyboard */; };
+		1D92B4211CFA385F009E406E /* COPYING in Resources */ = {isa = PBXBuildFile; fileRef = 1D92B41E1CFA385A009E406E /* COPYING */; };
+		1D92B42A1CFA3D3A009E406E /* libchuck-iOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D92B4291CFA3D3A009E406E /* libchuck-iOS.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D92B4041CFA381C009E406E /* lick-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "lick-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D92B4081CFA381C009E406E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1D92B40A1CFA381C009E406E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1D92B40B1CFA381C009E406E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1D92B40D1CFA381C009E406E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1D92B40E1CFA381C009E406E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1D92B4111CFA381C009E406E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1D92B4131CFA381C009E406E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D92B4161CFA381C009E406E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1D92B4181CFA381C009E406E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D92B41E1CFA385A009E406E /* COPYING */ = {isa = PBXFileReference; lastKnownFileType = text; name = COPYING; path = ../COPYING; sourceTree = "<group>"; };
+		1D92B41F1CFA385A009E406E /* HEADER.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = HEADER.txt; path = ../HEADER.txt; sourceTree = "<group>"; };
+		1D92B4201CFA385A009E406E /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		1D92B4281CFA3D35009E406E /* libchuck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = libchuck.h; path = "../libchuck/include/chuck-iOS/libchuck.h"; sourceTree = "<group>"; };
+		1D92B4291CFA3D3A009E406E /* libchuck-iOS.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libchuck-iOS.a"; path = "../libchuck/libchuck-iOS.a"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D92B4011CFA381C009E406E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D92B42A1CFA3D3A009E406E /* libchuck-iOS.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D92B3FB1CFA381C009E406E = {
+			isa = PBXGroup;
+			children = (
+				1D92B41E1CFA385A009E406E /* COPYING */,
+				1D92B41F1CFA385A009E406E /* HEADER.txt */,
+				1D92B4201CFA385A009E406E /* README.md */,
+				1D92B4061CFA381C009E406E /* lick-ios */,
+				1D92B4051CFA381C009E406E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D92B4051CFA381C009E406E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D92B4041CFA381C009E406E /* lick-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D92B4061CFA381C009E406E /* lick-ios */ = {
+			isa = PBXGroup;
+			children = (
+				1D92B4281CFA3D35009E406E /* libchuck.h */,
+				1D92B4291CFA3D3A009E406E /* libchuck-iOS.a */,
+				1D92B40A1CFA381C009E406E /* AppDelegate.h */,
+				1D92B40B1CFA381C009E406E /* AppDelegate.m */,
+				1D92B40D1CFA381C009E406E /* ViewController.h */,
+				1D92B40E1CFA381C009E406E /* ViewController.m */,
+				1D92B4101CFA381C009E406E /* Main.storyboard */,
+				1D92B4131CFA381C009E406E /* Assets.xcassets */,
+				1D92B4151CFA381C009E406E /* LaunchScreen.storyboard */,
+				1D92B4181CFA381C009E406E /* Info.plist */,
+				1D92B4071CFA381C009E406E /* Supporting Files */,
+			);
+			path = "lick-ios";
+			sourceTree = "<group>";
+		};
+		1D92B4071CFA381C009E406E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1D92B4081CFA381C009E406E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D92B4031CFA381C009E406E /* lick-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D92B41B1CFA381C009E406E /* Build configuration list for PBXNativeTarget "lick-ios" */;
+			buildPhases = (
+				1D92B4001CFA381C009E406E /* Sources */,
+				1D92B4011CFA381C009E406E /* Frameworks */,
+				1D92B4021CFA381C009E406E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lick-ios";
+			productName = "lick-ios";
+			productReference = 1D92B4041CFA381C009E406E /* lick-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D92B3FC1CFA381C009E406E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = heuermh;
+				TargetAttributes = {
+					1D92B4031CFA381C009E406E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = TCYPLX3UC3;
+					};
+				};
+			};
+			buildConfigurationList = 1D92B3FF1CFA381C009E406E /* Build configuration list for PBXProject "lick-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D92B3FB1CFA381C009E406E;
+			productRefGroup = 1D92B4051CFA381C009E406E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D92B4031CFA381C009E406E /* lick-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D92B4021CFA381C009E406E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D92B4211CFA385F009E406E /* COPYING in Resources */,
+				1D92B4171CFA381C009E406E /* LaunchScreen.storyboard in Resources */,
+				1D92B4141CFA381C009E406E /* Assets.xcassets in Resources */,
+				1D92B4121CFA381C009E406E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D92B4001CFA381C009E406E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D92B40F1CFA381C009E406E /* ViewController.m in Sources */,
+				1D92B40C1CFA381C009E406E /* AppDelegate.m in Sources */,
+				1D92B4091CFA381C009E406E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1D92B4101CFA381C009E406E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D92B4111CFA381C009E406E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1D92B4151CFA381C009E406E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1D92B4161CFA381C009E406E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1D92B4191CFA381C009E406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D92B41A1CFA381C009E406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D92B41C1CFA381C009E406E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "lick-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libchuck",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.heuermh.lick-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1D92B41D1CFA381C009E406E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "lick-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/libchuck",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.heuermh.lick-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D92B3FF1CFA381C009E406E /* Build configuration list for PBXProject "lick-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D92B4191CFA381C009E406E /* Debug */,
+				1D92B41A1CFA381C009E406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D92B41B1CFA381C009E406E /* Build configuration list for PBXNativeTarget "lick-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D92B41C1CFA381C009E406E /* Debug */,
+				1D92B41D1CFA381C009E406E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D92B3FC1CFA381C009E406E /* Project object */;
+}
