@@ -3,7 +3,7 @@ iOS app template with libchuck and LiCK.
 
 ```
 LiCK iOS  iOS app template with libchuck and LiCK.
-Copyright (c) 2016 held jointly by the individual authors.
+Copyright (c) 2016-2017 held jointly by the individual authors.
 
 This file is part of LiCK iOS.
 
